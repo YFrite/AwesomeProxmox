@@ -1,3 +1,9 @@
+#!/usr/bin/env bash
+#
+# pct-shrink-lv.sh
+# Usage: sudo ./pct-shrink-lv.sh <CTID> <TARGET_SIZE> [--yes] [--snapshot <SNAP_SIZE>]
+# Example: sudo ./pct-shrink-lv.sh 999 10G --yes --snapshot 1G
+
 set -euo pipefail
 
 print_usage() {
