@@ -27,7 +27,8 @@ It handles:
 - ▶️ Starting the container after completion
 - 📦 Maintaining backups and snapshot info
 
-> ⚠️ **Note:** Works with **ext2/3/4 filesystems**. XFS or other filesystems require different procedures.
+> [!WARNING]  
+> Works with **ext2/3/4 filesystems**. XFS or other filesystems require different procedures.
 
 ---
 
@@ -40,3 +41,4 @@ Feel free to contribute!
 * Share tips and tricks for Proxmox administration
 
 Please submit **pull requests** or **open issues** for discussion.
+
